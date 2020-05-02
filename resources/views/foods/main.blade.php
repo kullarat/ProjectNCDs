@@ -65,12 +65,41 @@
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">บัญชีของฉัน</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="{{action('WelcomeController@profile')}}">ข้อมูลส่วนตัว</a>
-								<a class="dropdown-item" href="blog-details.html">ออกจากระบบ</a>
 							</div>
 						</li>
 
-						<li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i> Sign up</a></li>
-                		<li><a href="#mySignin" data-toggle="modal">Sign in</a></li>
+						<!-- Authentication Links -->
+						{{--@if(Auth::check())--}}
+								@guest
+									<li class="nav-item">
+										<a class="nav-link" href="{{ url('/login') }}"><i class="fa fa-sign-in-alt"></i>  Login</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="{{ route('register') }}"><i class="fa fa-user-plus"></i> Register</a>
+									</li>
+
+								@else
+									<li class="nav-item dropdown">
+										<a href="#" class="nav-link  dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
+											<i class="fa fa-user"></i>
+											{{ Auth::user()->name }}
+											
+											<span class="caret"></span>
+										</a>
+
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href=" route('logout') }} "
+											onclick="event.preventDefault();
+															document.getElementById('logout-form').submit();">
+												<i class="fa fa-sign-out-alt"></i> Logout
+											</a>
+
+											<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+												{{ csrf_field() }}
+											</form>
+										</div>
+									</li>
+								@endguest
 						
 					</ul>
 				</div>
@@ -205,11 +234,11 @@
 						<div class="why-text">
 						<h4>ข้าวราดไข่เจียวสมุนไพร</h4>
 							<p></p>
-							<h3> น้ำหนัก/จาน (กรัม)   276.0</h3>
-							<h3> พลังงาน (kcal)     579.0</h3>
-							<h3> โปรตีน (กรัม)       14.0</h3>
-							<h3> ไขมัน (กรัม)        27.9</h3>
-							<h3> คาร์โบไฮเดรต (กรัม) 68.0</h3>
+							<h3> น้ำหนัก/จาน (กรัม)   &nbsp;276.0</h3>
+							<h3> พลังงาน (kcal)     &nbsp;579.0</h3>
+							<h3> โปรตีน (กรัม)       &nbsp;14.0</h3>
+							<h3> ไขมัน (กรัม)        &nbsp;27.9</h3>
+							<h3> คาร์โบไฮเดรต (กรัม) &nbsp;68.0</h3>
 						</div>
 					</div>
 				</div>
@@ -220,11 +249,11 @@
 						<div class="why-text">
 						<h4>ข้าวราดแกงส้มชะอมทอด</h4>
 							<p></p>
-							<h3> น้ำหนัก/จาน (กรัม)   370.0</h3>
-							<h3> พลังงาน (kcal)     397.0</h3>
-							<h3> โปรตีน (กรัม)       13.9</h3>
-							<h3> ไขมัน (กรัม)        12.7</h3>
-							<h3> คาร์โบไฮเดรต (กรัม) 56.6</h3>
+							<h3> น้ำหนัก/จาน (กรัม)   &nbsp;370.0</h3>
+							<h3> พลังงาน (kcal)     &nbsp;397.0</h3>
+							<h3> โปรตีน (กรัม)       &nbsp;13.9</h3>
+							<h3> ไขมัน (กรัม)        &nbsp;12.7</h3>
+							<h3> คาร์โบไฮเดรต (กรัม) &nbsp;56.6</h3>
 						</div>
 					</div>
 				</div>
@@ -235,11 +264,11 @@
 						<div class="why-text">
 						<h4>ข้าวราดผัดผักรวม</h4>
 							<p></p>
-							<h3> น้ำหนัก/จาน (กรัม)   282.0</h3>
-							<h3> พลังงาน (kcal)     332.0</h3>
-							<h3> โปรตีน (กรัม)       8.8</h3>
-							<h3> ไขมัน (กรัม)        5.9</h3>
-							<h3> คาร์โบไฮเดรต (กรัม) 60.9</h3>
+							<h3> น้ำหนัก/จาน (กรัม)   &nbsp;282.0</h3>
+							<h3> พลังงาน (kcal)     &nbsp;332.0</h3>
+							<h3> โปรตีน (กรัม)       &nbsp;8.8</h3>
+							<h3> ไขมัน (กรัม)        &nbsp;5.9</h3>
+							<h3> คาร์โบไฮเดรต (กรัม) &nbsp;60.9</h3>
 						</div>
 					</div>
 				</div>
@@ -250,11 +279,11 @@
 						<div class="why-text">
 						<h4>ข้าวราดยำไข่ดาว</h4>
 							<p></p>
-							<h3> น้ำหนัก/จาน (กรัม)   366.0</h3>
-							<h3> พลังงาน (kcal)     638.0</h3>
-							<h3> โปรตีน (กรัม)       19.9</h3>
-							<h3> ไขมัน (กรัม)        28.5</h3>
-							<h3> คาร์โบไฮเดรต (กรัม) 75.3</h3>
+							<h3> น้ำหนัก/จาน (กรัม)   &nbsp;366.0</h3>
+							<h3> พลังงาน (kcal)     &nbsp;638.0</h3>
+							<h3> โปรตีน (กรัม)       &nbsp;19.9</h3>
+							<h3> ไขมัน (กรัม)        &nbsp;28.5</h3>
+							<h3> คาร์โบไฮเดรต (กรัม) &nbsp;75.3</h3>
 						</div>
 					</div>
 				</div>
@@ -265,11 +294,11 @@
 						<div class="why-text">
 						<h4>น้ำพริกกะปิ+ปลาทูทอด+ชะอมชุบไข่</h4>
 							<p></p>
-							<h3> น้ำหนัก/จาน (กรัม)   331.0</h3>
-							<h3> พลังงาน (kcal)     386.0</h3>
-							<h3> โปรตีน (กรัม)       32.8</h3>
-							<h3> ไขมัน (กรัม)        24.5</h3>
-							<h3> คาร์โบไฮเดรต (กรัม) 8.5</h3>
+							<h3> น้ำหนัก/จาน (กรัม)   &nbsp;331.0</h3>
+							<h3> พลังงาน (kcal)     &nbsp;386.0</h3>
+							<h3> โปรตีน (กรัม)       &nbsp;32.8</h3>
+							<h3> ไขมัน (กรัม)        &nbsp;24.5</h3>
+							<h3> คาร์โบไฮเดรต (กรัม) &nbsp;8.5</h3>
 						</div>
 					</div>
 				</div>
@@ -280,11 +309,11 @@
 						<div class="why-text">
 						<h4>ก๋วยเตี๋ยวเส้นหมี่เนื้อรวมน้ำตก</h4>
 							<p></p>
-							<h3> น้ำหนัก/จาน (กรัม)   365.0</h3>
-							<h3> พลังงาน (kcal)     233.0</h3>
-							<h3> โปรตีน (กรัม)       19.1</h3>
-							<h3> ไขมัน (กรัม)        2.5</h3>
-							<h3> คาร์โบไฮเดรต (กรัม) 334.0</h3>
+							<h3> น้ำหนัก/จาน (กรัม)   &nbsp;365.0</h3>
+							<h3> พลังงาน (kcal)     &nbsp;233.0</h3>
+							<h3> โปรตีน (กรัม)       &nbsp;19.1</h3>
+							<h3> ไขมัน (กรัม)        &nbsp;2.5</h3>
+							<h3> คาร์โบไฮเดรต (กรัม) &nbsp;334.0</h3>
 						</div>
 					</div>
 				</div>
@@ -295,11 +324,11 @@
 						<div class="why-text">
 						<h4>กระเพาะปลาเส้นหมี่</h4>
 							<p></p>
-							<h3> น้ำหนัก/จาน (กรัม)   412.0</h3>
-							<h3> พลังงาน (kcal)     246.0</h3>
-							<h3> โปรตีน (กรัม)       15.5</h3>
-							<h3> ไขมัน (กรัม)        3.1</h3>
-							<h3> คาร์โบไฮเดรต (กรัม) 39.0</h3>
+							<h3> น้ำหนัก/จาน (กรัม)   &nbsp;412.0</h3>
+							<h3> พลังงาน (kcal)     &nbsp;246.0</h3>
+							<h3> โปรตีน (กรัม)       &nbsp;15.5</h3>
+							<h3> ไขมัน (กรัม)        &nbsp;3.1</h3>
+							<h3> คาร์โบไฮเดรต (กรัม) &nbsp;39.0</h3>
 						</div>
 					</div>
 				</div>
@@ -310,11 +339,11 @@
 						<div class="why-text">
 						<h4>สุกี้รวมมิตร แห้ง</h4>
 							<p></p>
-							<h3> น้ำหนัก/จาน (กรัม)   384.0</h3>
-							<h3> พลังงาน (kcal)     399.0</h3>
-							<h3> โปรตีน (กรัม)       21.9</h3>
-							<h3> ไขมัน (กรัม)        17.0</h3>
-							<h3> คาร์โบไฮเดรต (กรัม) 39.4</h3>
+							<h3> น้ำหนัก/จาน (กรัม)   &nbsp;384.0</h3>
+							<h3> พลังงาน (kcal)     &nbsp;399.0</h3>
+							<h3> โปรตีน (กรัม)       &nbsp;21.9</h3>
+							<h3> ไขมัน (กรัม)        &nbsp;17.0</h3>
+							<h3> คาร์โบไฮเดรต (กรัม)  &nbsp;39.4</h3>
 						</div>
 					</div>
 				</div>

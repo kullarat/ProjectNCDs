@@ -65,7 +65,6 @@
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">บัญชีของฉัน</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="{{action('WelcomeController@profile')}}">ข้อมูลส่วนตัว</a>
-								<a class="dropdown-item" href="blog-details.html">ออกจากระบบ</a>
 							</div>
 						</li>
 					</ul>

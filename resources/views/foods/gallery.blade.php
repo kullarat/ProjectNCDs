@@ -65,13 +65,40 @@
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">บัญชีของฉัน</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="{{action('WelcomeController@profile')}}">ข้อมูลส่วนตัว</a>
-								<a class="dropdown-item" href="blog-details.html">ออกจากระบบ</a>
 							</div>
 						</li>
+						<!-- Authentication Links -->
+						{{--@if(Auth::check())--}}
+								@guest
+									<li class="nav-item">
+										<a class="nav-link" href="{{ url('/login') }}"><i class="fa fa-sign-in-alt"></i>  Login</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="{{ route('register') }}"><i class="fa fa-user-plus"></i> Register</a>
+									</li>
 
-						<li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i> Sign up</a></li>
-                		<li><a href="#mySignin" data-toggle="modal">Sign in</a></li>
-						
+								@else
+									<li class="nav-item dropdown">
+										<a href="#" class="nav-link  dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
+											<i class="fa fa-user"></i>
+											{{ Auth::user()->name }}
+											
+											<span class="caret"></span>
+										</a>
+
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href=" route('logout') }} "
+											onclick="event.preventDefault();
+															document.getElementById('logout-form').submit();">
+												<i class="fa fa-sign-out-alt"></i> Logout
+											</a>
+
+											<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+												{{ csrf_field() }}
+											</form>
+										</div>
+									</li>
+								@endguest
 					</ul>
 				</div>
 			</div>
