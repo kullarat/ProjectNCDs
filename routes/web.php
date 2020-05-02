@@ -32,3 +32,7 @@ Route::get('profile', 'WelcomeController@profile');
 Route::get('gallery', 'WelcomeController@gallery');
 
 Route::get('chart', 'WelcomeController@chart');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
