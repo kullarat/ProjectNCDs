@@ -35,4 +35,14 @@ class WelcomeController extends Controller
     {
         return view('foods.profile');
     }
+
+    public function gallery()
+    {
+        return view('foods.gallery');
+    }
+
+    public function chart()
+    {
+        return view('foods.chart');
+    }
 }

@@ -28,3 +28,7 @@ Route::get('article', 'WelcomeController@article');
 Route::get('disease', 'WelcomeController@disease');
 
 Route::get('profile', 'WelcomeController@profile');
+
+Route::get('gallery', 'WelcomeController@gallery');
+
+Route::get('chart', 'WelcomeController@chart');
