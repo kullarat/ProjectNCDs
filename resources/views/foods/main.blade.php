@@ -61,13 +61,8 @@
 							</div>
 						</li>
 						<li class="nav-item"><a class="nav-link" href="{{action('WelcomeController@gallery')}}">อัลบั้มภาพ</a></li> 
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">บัญชีของฉัน</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="{{action('WelcomeController@profile')}}">ข้อมูลส่วนตัว</a>
-							</div>
-						</li>
-
+						<li class="nav-item"><a class="nav-link" href="{{action('WelcomeController@profile')}}">บัญชีของฉัน</a></li> 
+						
 						<!-- Authentication Links -->
 						{{--@if(Auth::check())--}}
 								@guest
@@ -393,26 +388,12 @@
 	<footer class="footer-area bg-f">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-6 col-md-6">
 					<h3>About Us</h3>
 					<p>NCDs Food คือ เว็บแอปพลิเคชันแนะนำอาหารสำหรับผู้ป่วยในกลุ่มโรค NCDs ที่ให้ผู้ป่วยในกลุ่มโรค NCDs หรือคนในครอบครัวผู้ป่วย คนดูแลผู้ป่วย สามารถใช้งานเว็บไซต์เพื่อ</p>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Opening hours</h3>
-					<p><span class="text-color">Monday: </span>Closed</p>
-					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>ติดต่อเราได้ที่</h3>
-					<p class="lead">99/33 ม.6 ซอยท่าอิฐ 25 </a> <br>
-					ถนนรัตนาธิเบศร์ ตำบลท่าอิฐ  <br>
-					อำเภอปากเกร็ด นนทบุรี 11120 
-					<p class="lead"><a href="#">+66 2961-1372</a></p>
-					<p><a href="#"> ncdsfood.support@gmail.com</a></p>
-				</div>
-				<div class="col-lg-3 col-md-6">
+
+				<div class="col-lg-6 col-md-6">
 					<h3>ติดตามเราได้ที่</h3>
 					<div class="subscribe_form">
 						<form class="subscribe_form">

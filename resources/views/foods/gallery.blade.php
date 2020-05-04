@@ -130,7 +130,7 @@
 			</div>
 			<div class="tz-gallery">
 				<div class="row">
-					<div class="col-sm-12 col-md-3 col-lg-4">
+					<div class="col-sm-6 col-md-4 col-lg-4">
 						<a class="lightbox" href="images/img-01.jpg"> <!--ขยาย-->
 							<h1 style="text-align: center" >ข้าวราดต้มจืดเต้าหู้หมูสับ</h1>
 							<img class="img-fluid" src="images/img-01.jpg" alt="Gallery Images"> <!--ย่อ-->
@@ -162,7 +162,7 @@
 					</div> 
 					<div class="col-sm-6 col-md-4 col-lg-4">
 						<a class="lightbox" href="images/img-06.jpg">
-							<h1 style="text-align: center" >น้ำพริกกะปิ + ปลาทูทอด + ชะอมชุบไข่</h1>
+							<h1 style="text-align: center" >น้ำพริกกะปิปลาทูทอดชะอมชุบไข่</h1>
 							<img class="img-fluid" src="images/img-06.jpg" alt="Gallery Images">
 						</a>
 					</div>

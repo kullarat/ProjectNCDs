@@ -130,7 +130,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-12">
+				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="blog-box-inner">
 						<div class="blog-img-box">
 							<img class="img-fluid" src="images/blog-img-01.jpg" alt="">
@@ -160,8 +160,10 @@
 								<li>|</li>
 								<li><span>27 February 2018</span></li>
 							</ul>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
-							<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. </p>
+							<p> โรคเบาหวาน เป็นการเจ็บป่วยเรื้อรังที่เกิดจากร่างกายไม่สามารถใช้น้ำตาลในเสือดได้ทั้งหมด 
+								เนื่องจากขาดฮอร์โมนอินซูสิน หรือภาวะดื้อต่ออินชูสิน ทำให้มีน้ำตาลในเลือดมากกว่าปกติ 
+								จนถูกขับออกทางปัสสาวะ ซึ่งหากควบคุมระดับน้ำตาลไม่ดี สามารถก่อให้เกิดภาวะแทรกซ้อนต่างๆ ได้ 
+								เช่น ภาวะไตเสื่อม ระบบประสาทส่วนปลายเสื่อม จอประสาทตาเสื่อม ภาวะหลอดเลือดแดงแข็ง ภาวะหัวใจขาดเลือด </p>
 							<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Read More</a>
 						</div>
 					</div>
