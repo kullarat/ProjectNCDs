@@ -50,4 +50,10 @@ class WelcomeController extends Controller
     {
         return view('foods.food');
     }
+
+    public function editprofile()
+    {
+        return view('foods.editprofile');
+    }
+    
 }

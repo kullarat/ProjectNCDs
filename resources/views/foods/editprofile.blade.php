@@ -37,18 +37,6 @@
 
 </head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<style>
-    * {
-        box-sizing: border-box;
-        font-size: 18px;
-        font-family: "Athiti", sans-serif;
-    }
-</style>
-
 <body>
 	<!-- Start header -->
 	<header class="top-navbar">
@@ -123,74 +111,178 @@
 	<!-- End header -->
 	
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-
 	<!-- Start All Pages -->
 	<div class="all-page-title page-breadcrumb">
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>ข้อมูลผู้ใช้งาน</h1>
+					<h1>ข้อมูลส่วนตัว</h1>
 				</div>
 			</div>
 		</div>
 	</div>
-    <!-- End All Pages -->
-    
-      
-        <!-- Start Profile -->
-    
-      
-        <div class="row justify-content-center">
-			<div class="col-md-8 mr-auto ml-auto">
-
-                <br>
-                <h3><i class="fa fa-user"></i>  ชื่อ - นามสกุล : เจสัน สมิท</h3>
-                <hr>
-
-                <div class="w3-card-4">
-                   
-                    <div class="w3-container">
-                        <br>
-                            <header class="w3-container w3-lime">
-                                <h3><i class="fa fa-line-chart"></i> ปริมาณแคลอรี่ที่เหมาะสม/วัน : 2100 กิโลแคลอรี่</h3>
-                            </header>
-                        <br>
-                            <p>เพศ : ชาย</p>
-                            <p>อายุ : 36 ปี</p>
-                            <p>น้ำหนัก : 65 กิโลกรัม</p>
-                            <p>ส่วนสูง : 183 เซนติเมตร</p>
-                    
-                        <hr>
-                            <header class="w3-container w3-khaki">
-                                <h3><i class="fa fa-plus-square"></i> โรคประจำตัวผู้ป่วย : </h3>
-                            </header>
-                        <br>
-                             <p>โรคเบาหวาน</p>
-                            <p>โรคหัวใจ</p> 
-                    
-                        <hr>
-                            <header class="w3-container w3-amber">
-                                 <h3><i class="fa fa-exclamation-triangle"></i> การแพ้อาหาร : </h3>
-                            </header>
-                         <br>
-                            <p>ถั่ว</p>
-                            <p>ปู</p>
-
-                        </div>
-   
-                        <button class="w3-button w3-block w3-dark-grey" href="#"><i class="fa fa-edit"></i> แก้ไขข้อมูลส่วนตัว</button>
-                        
-                </div>
-                <br>
-
-            </div>
-        </div>
+	<!-- End All Pages -->
 	
+	<!-- Start Reservation -->
+	<div class="reservation-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>ข้อมูลส่วนตัว</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 col-xs-12">
+					<div class="contact-block">
+						<form id="contactForm">
 
- <!-- End Profile -->
+                        <div class="col-md-1">
+									<div class="submit-button text-center">
+										<button class="btn btn-common" id="submit" type="submit">แก้ไขข้อมูล</button>
+										<div id="msgSubmit" class="h3 text-center hidden"></div> 
+										<div class="clearfix"></div> 
+									</div>
+						</div>
+
+							<div class="row">
+								<div class="col-md-6">
+									<h3>ข้อมูลส่วนตัว</h3>
+									<div class="col-md-12">
+										<div class="form-group">
+											<select class="custom-select d-block form-control" id="person" required data-error="Please select Sex">
+											  <option disabled selected>เพศ</option>
+											  <option value="1">ชาย</option>
+											  <option value="2">หญิง</option>
+											</select>
+											<div class="help-block with-errors"></div>
+										</div> 
+									</div>
+                                    <div class="col-md-12">
+										<div class="form-group">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="อายุ" required data-error="Please enter your name">
+											<div class="help-block with-errors"></div>
+											<div class="help-block with-errors"></div>
+										</div> 
+									</div>
+                                    <div class="col-md-12">
+										<div class="form-group">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="น้ำหนัก" required data-error="Please enter your name">
+											<div class="help-block with-errors"></div>
+											<div class="help-block with-errors"></div>
+										</div> 
+									</div>
+                                    <div class="col-md-12">
+										<div class="form-group">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="ส่วนสูง" required data-error="Please enter your name">
+											<div class="help-block with-errors"></div>
+											<div class="help-block with-errors"></div>
+										</div> 
+									</div>
+									
+								</div>
+								<div class="col-md-6">
+									<h3>การออกกำลังกายต่อสัปดาห์</h3>
+									<div class="col-md-12">
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  											<label class="form-check-label" for="inlineRadio1">น้อยมากหรือไม่ออกเลย</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  											<label class="form-check-label" for="inlineRadio2">1 - 3 ครั้ง</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  											<label class="form-check-label" for="inlineRadio2">4 - 5 ครั้ง</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  											<label class="form-check-label" for="inlineRadio2">6 - 7 ครั้ง</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  											<label class="form-check-label" for="inlineRadio2">ทุกวัน วันละ 2 ครั้งขึ้นไป</label>
+										</div> 
+									</div> <br>
+
+									<h3>โรคประจำตัว</h3>
+									<div class="col-md-12">
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">โรคเบาหวาน</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">โรคความดันโลหิตสูง</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">โรคไต</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">โรคหัวใจ</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">โรคไขมันอุดตันในเส้นเลือด</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">โรคกระดูกพรุน</label>
+										</div>
+									</div> <br>
+									
+									<h3>ประวัติการแพ้อาหาร</h3>
+									<div class="col-md-12">
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">ไข่</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">ถั่ว</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">ถั่วลิสง</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">ถั่วเหลือง</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">กุ้ง</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">ปู</label>
+										</div>
+										<div class="form-check form-check-inline">
+  											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  											<label class="form-check-label" for="inlineCheckbox1">ปลา</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="submit-button text-center">
+										<button class="btn btn-common" id="submit" type="submit">บันทึก</button>
+										<div id="msgSubmit" class="h3 text-center hidden"></div> 
+										<div class="clearfix"></div> 
+									</div>
+								</div>
+							</div>            
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Reservation -->
+	
 	
 		<!-- Start Contact info -->
 		<div class="contact-imfo-box">

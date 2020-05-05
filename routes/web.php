@@ -35,6 +35,8 @@ Route::get('chart', 'WelcomeController@chart');
 
 Route::get('food', 'WelcomeController@food');
 
+Route::get('showprofile', 'WelcomeController@showprofile');
+
 Auth::routes();
 
 Route::get('/welcome', 'WelcomeController@index')->name('welcome');

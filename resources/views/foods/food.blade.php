@@ -114,8 +114,17 @@
 	</div>
 	<!-- End header -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<style>
+    * {
+        box-sizing: border-box;
+        font-size: 18px;
+        font-family: "Athiti", sans-serif;
+    }
+</style>
 
 <!-- Start Menu -->
 

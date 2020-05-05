@@ -1,3 +1,12 @@
+<?php
+ 
+$dataPoints = array( 
+	array("label"=>"Carbs", "y"=> 278),
+	array("label"=>"Protein", "y"=> 278),
+	array("label"=>"Fat", "y"=> 124)
+)
+ 
+?>
 <!DOCTYPE html>
 <html lang="en"><!-- Basic -->
 <head>
@@ -33,13 +42,38 @@
 
 </head>
 
+<script>
+window.onload = function() {
+ 
+ 
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title: {
+		text: "ปริมาณสารอาหารที่ควรได้รับ"
+	},
+	subtitles: [{
+		text: "วันที่ {{ date('d-m-y') }}"
+	}],
+	data: [{
+		type: "pie",
+		yValueFormatString: "#,##0.0\"g\"",
+		indexLabel: "{label} ({y})",
+		dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+	}]
+});
+chart.render();
+ 
+}
+</script>
+
 <body>
 	<!-- Start header -->
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
 				<a class="navbar-brand" href="{{action('WelcomeController@index')}}">
-					<img src="images/logo.png" alt="" />
+					<img src="images/logo5.png" alt=""/>
+					
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
@@ -111,7 +145,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>NCDs Food</strong></h1>
+							<h1 class="m-b-20"><strong>NCDs FOOD</strong></h1>
 							<p class="m-b-40">เว็บแอปพลิเคชันแนะนำอาหารสำหรับผู้ป่วยในกลุ่มโรค NCDs</p>
 						</div>
 					</div>
@@ -122,7 +156,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>NCDs Food</strong></h1>
+							<h1 class="m-b-20"><strong>NCDs FOOD</strong></h1>
 							<p class="m-b-40">เว็บแอปพลิเคชันแนะนำอาหารสำหรับผู้ป่วยในกลุ่มโรค NCDs</p>
 						</div>
 					</div>
@@ -133,7 +167,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>NCDs Food</strong></h1>
+							<h1 class="m-b-20"><strong>NCDs FOOD</strong></h1>
 							<p class="m-b-40">เว็บแอปพลิเคชันแนะนำอาหารสำหรับผู้ป่วยในกลุ่มโรค NCDs</p>
 						</div>
 					</div>
@@ -152,15 +186,40 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="images/about-img.jpg" alt="" class="img-fluid">
+					<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+					<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
 					<div class="inner-column">
-						<h1>Welcome To <span>Yamifood Restaurant</span></h1>
+						<h1><span>แคลอรี</span>ประจำวัน</h1>
 						<h4>Little Story</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
-						<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a pellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.</p>
-						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">แนะนำเมนูอาหาร</a>
+						<div class="progress">
+							<div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="lead ">
+							ไขมัน
+						</p>
+						<div class="progress">
+							<div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="lead ">
+							โปรตีน
+						</p>
+						<div class="progress">
+							<div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="lead ">
+							คาร์โบไฮเดรต
+						</p>
+						<div class="progress">
+							<div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="lead ">
+							แคลอรี 2000 กิโลแคลอรี
+						</p>
+						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">คำนวณแคลอรี่</a>
 					</div>
 				</div>
 			</div>
@@ -176,7 +235,6 @@
 					<p class="lead ">
 						" If you're not the one cooking, stay out of the way and compliment the chef. "
 					</p>
-					<span class="lead">Michael Strahan</span>
 				</div>
 			</div>
 		</div>
