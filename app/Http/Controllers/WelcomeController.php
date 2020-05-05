@@ -45,4 +45,9 @@ class WelcomeController extends Controller
     {
         return view('foods.chart');
     }
+
+    public function food()
+    {
+        return view('foods.food');
+    }
 }

@@ -33,6 +33,8 @@ Route::get('gallery', 'WelcomeController@gallery');
 
 Route::get('chart', 'WelcomeController@chart');
 
+Route::get('food', 'WelcomeController@food');
+
 Auth::routes();
 
 Route::get('/welcome', 'WelcomeController@index')->name('welcome');
