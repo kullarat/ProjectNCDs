@@ -32,6 +32,18 @@
     <![endif]-->
 
 </head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<style>
+    	* {
+        	box-sizing: border-box;
+       	 	font-size: 18px;
+        	font-family: "Athiti", sans-serif;
+    		}
+	</style>
 
 <body>
 	<!-- Start header -->
@@ -39,7 +51,7 @@
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
-					<img src="images/logo.png" alt="" />
+					<img src="images/logo07.png" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
@@ -76,229 +88,86 @@
 	</header>
 	<!-- End header -->
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 	<!-- Start All Pages -->
 	<div class="all-page-title page-breadcrumb">
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>Blog</h1>
+					<h1>บทความโรคไต</h1>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- End All Pages -->
 	
-	<!-- Start blog details -->
-	<div class="blog-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="heading-title text-center">
-						<h2>โรคหัวใจ</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-					</div>
+	<!-- Start Profile -->
+    
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!------ Include the above in your HEAD tag ---------->
+	<p></p>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+
+ 	<!-- Start Profile -->
+	 <div class="container">
+   		 <div class="row">
+   
+        <!-- Add to cart -->
+        <div class="col-md-12 add_to_cart_block">
+		<h3> โรค : ไต</h3>
+   
+                <div class="w3-card-4">
+                   
+					<div class="card border-light mb-3">
+					<div class="card-header text-white text-uppercase"style="background-color: Maroon"><p class="h4"><i class="fa fa-exclamation-triangle"></i> สาเหตุของโรค</p></div>
+					
+						<div class="w3-container ">
+							<br>
+							<p> ปัจจัยที่เป็นต้นเหตุมีหลายอย่าง เช่น โรคหลอดเลือดฝอยของไตอักเสบโดยไม่ทราบสาเหตุ 
+							โรคที่ร่างกายสร้างสารขึ้นมาทำลายอวัยวะต่างๆ รวมทั้งไต เช่น โรค SLE โรคไตเป็นถุงน้ำมาแต่กำเนิด 
+							และโรคไตที่ถ่ายทอดทางพันธุกรรมบางชนิด โรคความดันโลหิตสูง และโรคเบาหวาน เป็นต้น 
+							นอกจากนี้ยังมีคนที่มีน้ำหนักเกินหรือเป็นโรคอ้วน และการสูบบุหรี</p> 
+                        	
+						</div>
+
+					<div class="card-header  text-white text-uppercase"style="background-color: Maroon "><p  class="h4"><i class="fa fa-exclamation-circle"></i> อาการของโรค</p></div>
+   
+						<div class="w3-container">
+							<br>
+                            <p> เกิดจากการทำงานของไตบกพร่อง ทำให้มีการคลั่งของเกลือ กรด และน้ำในร่างกาย 
+							รวมทั้งของเสียที่เกิดจากการเผาพลาญอาหารประเภทโปรตีน นอกจากนั้นหน้าที่ของไตในการสร้างฮอร์โมนบางชนิดผิดปกติ 
+							ผู้ป่วยจะมีอาการเบื่ออาหาร คลื่นไส้ อาเจียน อ่อนเพลีย โลหิตจาง คันตามตัว มีจ้ำตามตัว ความดันโลหิตสูง ปวดศีรษะ นอนไม่หลับ 
+							บวมที่หน้าและขา ชาตามปลายมือปลายเท้า เป็นตะคริว หัวใจล้มเหลว หัวใจเต้นผิดปกติ หายใจลำบาก น้ำท่วมปอด กระดูกบางเปราะหักง่าย 
+							ปวดกระดูก ถ้าของเสียค้างในสมองมากๆ จะมีอาการชัก ซึมลง สับสน นอกจากนี้ผู้ป่วยจะเป็นหมันและหมดสมรรถภาพทางเพศ 
+							ถ้าเกิดในเด็ก เด็กจะแคระแกร็น หยุดการเจริญเติบโต</p>
+                            
+						</div>
+
+					<div class="card-header  text-white text-uppercase"style="background-color: Maroon"><p class="h4"><i class="fa fa-cutlery"></i> อาหารที่เหมาะสม</p></div>    
+						
+						<div class="w3-container">
+						 	<br>
+                            <p>อาหารจำกัดโซเดียม ได้แก่ อาหารที่มีรสเค็มจากการใช้เครื่องปรุงรสต่างๆ ไม่ว่าจะเป็นเกลือ น้ำปลา ซีอิ้ว 
+							หลีกเลี่ยง อาหารหมักดอง อาหารตากแห้ง อาหารว่างที่ออกรส เค็ม อาหารแปรรูป 
+							เช่น ไส้กรอก แฮม หมูยอ หมูหยอง อาหารสำเร็จรูป จำพวกโจ๊ก บะหมี่ วุ้นเส้น และขนมขบเคี้ยวต่างทุกชนิด</p>
+							<p>อาหารจำกัดโปแตสเซียม ถ้าระดับโปแตสเซียมสูงมากอาจทำให้หัวใจหยุดเต้นได้ อาหารที่มีปริมาณโปแตสเซียมค่อนข้างต่ำ เช่น กะหล่ำปลี แตงกวา บวบ ฟักเขียว ถั่วงอก แตงโม และสับปะรดกระป๋อง</p>
+                        </div>  
+
+					<button class="btn btn-primary btn-lg btn-block text-uppercase" 
+					href="#"><i class="fa fa-edit"></i> ย้อนกลับ</button>                     
+                </div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-xl-8 col-lg-8 col-12">
-					<div class="blog-inner-details-page">
-						<div class="blog-inner-box">
-							<div class="side-blog-img">
-								<img class="img-fluid" src="images/inner-blog-img.jpg" alt="">							
-								<div class="date-blog-up">
-									27 Fab
-								</div>
-							</div>
-							<div class="inner-blog-detail details-page">
-								<h3>Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium.</h3>
-								<ul>
-									<li><i class="zmdi zmdi-account"></i>Posted By : <span>Rubel Ahmed</span></li>
-									<li>|</li>
-									<li><i class="zmdi zmdi-time"></i>Time : <span>11.30 am</span></li>
-								</ul>
-								<p>Vestibulum quis ultricies enim. Quisque eu sapien a erat congue lacinia bibendum ac massa. Morbi vehicula aliquet libero sit amet dictum. Integer vel mauris non magna consequat porttitor. Nulla facilisi. Suspendisse posuere, elit eu fringilla congue, turpis magna tempor odio, a placerat magna tortor a mauris. Phasellus lobortis turpis dui, eget mollis ex vestibulum auctor. Nunc viverra leo ut accumsan aliquet. Maecenas aliquam dolor eget felis bibendum blandit.</p>
-								<p>Nunc iaculis, massa eget pellentesque mollis, nulla mauris aliquam eros, vitae condimentum leo nisl ut purus. Etiam nibh diam, vehicula non tincidunt id, consequat nec ex. Praesent vulputate sapien non tellus ultrices hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pellentesque arcu erat. Curabitur dapibus fringilla porta. Sed in neque sit amet ante feugiat blandit. Nulla fringilla purus diam, cursus venenatis diam luctus nec.</p>
-								<blockquote>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non feugiat lacus. Nunc nisi velit, consectetur vitae ex porttitor, placerat scelerisque mauris. Phasellus sit amet tincidunt metus, quis tempus ex. Quisque in lorem ut mi ullamcorper suscipit eu nec purus. Nam maximus sagittis iaculis.</p>
-								</blockquote>
-								<p>Vestibulum quis ultricies enim. Quisque eu sapien a erat congue lacinia bibendum ac massa. Morbi vehicula aliquet libero sit amet dictum. Integer vel mauris non magna consequat porttitor. Nulla facilisi. Suspendisse posuere, elit eu fringilla congue, turpis magna tempor odio, a placerat magna tortor a mauris.</p>
-							</div>
-						</div>
-						<div class="blog-comment-box">
-							<h3>Comments</h3>
-							<div class="comment-item">
-								<div class="comment-item-left">
-									<img src="images/avt-img.jpg" alt="">
-								</div>
-								<div class="comment-item-right">
-									<div class="pull-left">
-										<a href="#">Rubel Ahmed</a>
-									</div>
-									<div class="pull-right">
-										<i class="fa fa-clock-o" aria-hidden="true"></i>Time : <span>11.30 am</span>
-									</div>
-									<div class="des-l">
-										<p>Morbi lacinia ultrices lorem id tincidunt. Cras id dui risus. Pellentesque consectetur id mi sed pharetra. Proin imperdiet gravida nisl, sit amet varius urna. In auctor.</p>
-									</div>
-									<a href="#" class="right-btn-re"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a>
-								</div>
-							</div>
-							<div class="comment-item children">
-								<div class="comment-item-left">
-									<img src="images/avt-img.jpg" alt="">
-								</div>
-								<div class="comment-item-right">
-									<div class="pull-left">
-										<a href="#">Admin</a>
-									</div>
-									<div class="pull-right">
-										<i class="fa fa-clock-o" aria-hidden="true"></i>Time : <span>1.30 pm</span>
-									</div>
-									<div class="des-l">
-										<p>Morbi lacinia ultrices lorem id tincidunt. Cras id dui risus. Pellentesque consectetur id mi sed pharetra. Proin imperdiet gravida nisl, sit amet varius urna. In auctor.</p>
-									</div>
-									<a href="#" class="right-btn-re"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a>
-								</div>
-							</div>
-							<div class="comment-item">
-								<div class="comment-item-left">
-									<img src="images/avt-img.jpg" alt="">
-								</div>
-								<div class="comment-item-right">
-									<div class="pull-left">
-										<a href="#">Rubel Ahmed</a>
-									</div>
-									<div class="pull-right">
-										<i class="fa fa-clock-o" aria-hidden="true"></i>Time : <span>11.30 am</span>
-									</div>
-									<div class="des-l">
-										<p>Morbi lacinia ultrices lorem id tincidunt. Cras id dui risus. Pellentesque consectetur id mi sed pharetra. Proin imperdiet gravida nisl, sit amet varius urna. In auctor.</p>
-									</div>
-									<a href="#" class="right-btn-re"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a>
-								</div>
-							</div>
-						</div>
-						<div class="comment-respond-box">
-							<h3>Leave your comment </h3>
-							<div class="comment-respond-form">
-								<form id="commentrespondform" class="comment-form-respond row" method="post">
-									<div class="col-lg-6 col-md-6 col-sm-6">
-										<div class="form-group">
-											<input id="name_com" class="form-control" name="name" placeholder="Name" type="text">
-										</div>
-										<div class="form-group">
-											<input id="email_com" class="form-control" name="email" placeholder="Your Email" type="email">
-										</div>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-6">
-										<div class="form-group">
-											<textarea class="form-control" id="textarea_com" placeholder="Your Message" rows="2"></textarea>
-										</div>
-									</div>
-									<div class="col-lg-12 col-md-12 col-sm-12">
-										<button class="btn btn-submit">Submit comment</button>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			
-				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12 blog-sidebar">
-					<div class="right-side-blog">
-						<h3>Search</h3>
-						<div class="blog-search-form">
-							<input name="search" placeholder="Search blog" type="text">
-							<button class="search-btn">
-								<i class="fa fa-search" aria-hidden="true"></i>
-							</button>
-						</div>
-						<h3>Categories</h3>
-						<div class="blog-categories">
-							<ul>
-								<li><a href="#"><span>Food</span></a></li>
-								<li><a href="#"><span>Pizza</span></a></li>
-								<li><a href="#"><span>Drink</span></a></li>
-								<li><a href="#"><span>Lorem Sit</span></a></li>
-								<li><a href="#"><span>Burger</span></a></li>
-								<li><a href="#"><span>Music</span></a></li>
-							</ul>
-						</div>
-						<h3>Recent Post</h3>
-						<div class="post-box-blog">
-							<div class="recent-post-box">
-								<div class="recent-box-blog">
-									<div class="recent-img">
-										<img class="img-fluid" src="images/post-img-01.jpg" alt="">
-									</div>
-									<div class="recent-info">
-										<ul>
-											<li><i class="zmdi zmdi-account"></i>Posted By : <span>Rubel Ahmed</span></li>
-											<li>|</li>
-											<li><i class="zmdi zmdi-time"></i>Time : <span>11.30 am</span></li>
-										</ul>
-										<h4>Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium.</h4>
-									</div>
-								</div>
-								<div class="recent-box-blog">
-									<div class="recent-img">
-										<img class="img-fluid" src="images/post-img-02.jpg" alt="">
-									</div>
-									<div class="recent-info">
-										<ul>
-											<li><i class="zmdi zmdi-account"></i>Posted By : <span>Rubel Ahmed</span></li>
-											<li>|</li>
-											<li><i class="zmdi zmdi-time"></i>Time : <span>11.30 am</span></li>
-										</ul>
-										<h4>Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium.</h4>
-									</div>
-								</div>
-								<div class="recent-box-blog">
-									<div class="recent-img">
-										<img class="img-fluid" src="images/post-img-03.jpg" alt="">
-									</div>
-									<div class="recent-info">
-										<ul>
-											<li><i class="zmdi zmdi-account"></i>Posted By : <span>Rubel Ahmed</span></li>
-											<li>|</li>
-											<li><i class="zmdi zmdi-time"></i>Time : <span>11.30 am</span></li>
-										</ul>
-										<h4>Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium.</h4>
-									</div>
-								</div>
-								<div class="recent-box-blog">
-									<div class="recent-img">
-										<img class="img-fluid" src="images/post-img-01.jpg" alt="">
-									</div>
-									<div class="recent-info">
-										<ul>
-											<li><i class="zmdi zmdi-account"></i>Posted By : <span>Rubel Ahmed</span></li>
-											<li>|</li>
-											<li><i class="zmdi zmdi-time"></i>Time : <span>11.30 am</span></li>
-										</ul>
-										<h4>Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium.</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-						<h3>Recent Tag</h3>
-						<div class="blog-tag-box">
-							<ul class="list-inline tag-list">
-								<li class="list-inline-item"><a href="#">Food</a></li>
-								<li class="list-inline-item"><a href="#">Drink</a></li>
-								<li class="list-inline-item"><a href="#">Nature</a></li>
-								<li class="list-inline-item"><a href="#">Italian</a></li>
-								<li class="list-inline-item"><a href="#">Bootstrap4</a></li>
-								<li class="list-inline-item"><a href="#">Fashion</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			
-			</div>
-		</div>
-	</div>
-	<!-- End details -->
+        		</div>
+				
+            </div>
+        </div>
+
+ <!-- End Profile -->
 	
 	<!-- Start Contact info -->
 	<div class="contact-imfo-box">

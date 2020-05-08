@@ -112,7 +112,7 @@
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>ข้อมูลส่วนตัว</h1>
+					<h1>แก้ไขข้อมูลส่วนตัว</h1>
 				</div>
 			</div>
 		</div>
@@ -123,25 +123,9 @@
 	<div class="reservation-box">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<div class="heading-title text-center">
-						<h2>ข้อมูลส่วนตัว</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
 				<div class="col-lg-12 col-sm-12 col-xs-12">
 					<div class="contact-block">
 						<form id="contactForm">
-
-                        <div class="col-md-1">
-									<div class="submit-button text-center">
-										<button class="btn btn-common" id="submit" type="submit">แก้ไขข้อมูล</button>
-										<div id="msgSubmit" class="h3 text-center hidden"></div> 
-										<div class="clearfix"></div> 
-									</div>
-						</div>
-
 							<div class="row">
 								<div class="col-md-6">
 									<h3>ข้อมูลส่วนตัว</h3>
@@ -179,28 +163,21 @@
 									
 								</div>
 								<div class="col-md-6">
-									<h3>การออกกำลังกายต่อสัปดาห์</h3>
+									<h3>ข้อมูลพฤติกรรมในการออกกำลังกาย</h3>
 									<div class="col-md-12">
-										<div class="form-check form-check-inline">
-  											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-  											<label class="form-check-label" for="inlineRadio1">น้อยมากหรือไม่ออกเลย</label>
-										</div>
-										<div class="form-check form-check-inline">
-  											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-  											<label class="form-check-label" for="inlineRadio2">1 - 3 ครั้ง</label>
-										</div>
-										<div class="form-check form-check-inline">
-  											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-  											<label class="form-check-label" for="inlineRadio2">4 - 5 ครั้ง</label>
-										</div>
-										<div class="form-check form-check-inline">
-  											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-  											<label class="form-check-label" for="inlineRadio2">6 - 7 ครั้ง</label>
-										</div>
-										<div class="form-check form-check-inline">
-  											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-  											<label class="form-check-label" for="inlineRadio2">ทุกวัน วันละ 2 ครั้งขึ้นไป</label>
-										</div> 
+            							<div class="form-group">
+            							<select class="custom-select d-block form-control" name="exercisebehavior_id" required data-error="กรุณาเลือกความถี่ในการออกกำลังกายของท่าน">
+             								<option disabled selected>การออกกำลังกาย</option>
+            								<option value="1">น้อยมากหรือไม่ออกเลย</option>
+            								<option value="2">1-3 ครั้ง</option>
+             								<option value="3">4-5 ครั้ง</option>
+             								<option value="4">6-7 ครั้ง</option>
+             								<option value="5">วันละ 2 ครั้งขึ้นไป</option>
+            	 						</select>
+             						<div class="help-block with-errors"></div>
+            							</div> 
+           							</div>
+          						</div>
 									</div> <br>
 
 									<h3>โรคประจำตัว</h3>

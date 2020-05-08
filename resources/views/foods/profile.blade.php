@@ -44,7 +44,7 @@
 <style>
     * {
         box-sizing: border-box;
-        font-size: 18px;
+        font-size: 20px;
         font-family: "Athiti", sans-serif;
     }
 </style>
@@ -143,7 +143,7 @@
 	<p></p>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
-	
+
  	<!-- Start Profile -->
 	 <div class="container">
    		 <div class="row">
@@ -155,8 +155,7 @@
                 <div class="w3-card-4">
                    
 					<div class="card border-light mb-3">
-                	
-					<div class="card-header text-white text-uppercase"style="background-color: Maroon"><p class="h4"><i class="fa fa-line-chart"></i> ปริมาณแคลอรี่ที่เหมาะสม/วัน : 2100 กิโลแคลอรี่</p></div>
+					<div class="card-header text-white text-uppercase"style="background-color: indigo"><p class="h4"><i class="fa fa-line-chart"></i> ปริมาณแคลอรี่ที่เหมาะสม/วัน : 2100 กิโลแคลอรี่</p></div>
 					
 						<div class="w3-container ">
 							<br>
@@ -165,7 +164,7 @@
                         	<p> ส่วนสูง : 183 เซนติเมตร</p>
 						</div>
 
-					<div class="card-header bg-dark text-white text-uppercase"><p class="h4"><i class="fa fa-line-chart"></i> โรคประจำตัวผู้ป่วย :</p></div>
+					<div class="card-header  text-white text-uppercase"style="background-color: indigo "><p class="h4"><i class="fa fa-plus-square"></i> โรคประจำตัวผู้ป่วย :</p></div>
    
 						<div class="w3-container">
 							<br>
@@ -173,7 +172,7 @@
                             <p> โรคหัวใจ</p> 
 						</div>
 
-					<div class="card-header bg-dark text-white text-uppercase"><p class="h4"><i class="fa fa-line-chart"></i> การแพ้อาหาร :</p></div>    
+					<div class="card-header  text-white text-uppercase"style="background-color: indigo"><p class="h4"><i class="fa fa-exclamation-triangle"></i> การแพ้อาหาร :</p></div>    
 						
 						<div class="w3-container">
 						 	<br>
@@ -181,7 +180,8 @@
                             <p> ปู</p>
                         </div>
    
-                        <button class="btn btn-success btn-lg btn-block text-uppercase" href="#"><i class="fa fa-edit"></i> แก้ไขข้อมูลส่วนตัว</button>
+                        <button class="btn btn-success btn-lg btn-block text-uppercase" 
+						href="#"><i class="fa fa-edit"></i> แก้ไขข้อมูลส่วนตัว</button>
                         
                 </div>
 				</div>
