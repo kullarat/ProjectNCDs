@@ -119,9 +119,8 @@
 	<!-- End header -->
 	
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
 
 	<!-- Start All Pages -->
 	<div class="all-page-title page-breadcrumb">
@@ -135,59 +134,64 @@
 	</div>
     <!-- End All Pages -->
     
-      
-        <!-- Start Profile -->
+	<!-- Start Profile -->
     
-      
-        <div class="row justify-content-center">
-			<div class="col-md-8 mr-auto ml-auto">
-
-                <br>
-                <h3><i class="fa fa-user"></i>  ชื่อ - นามสกุล : เจสัน สมิท</h3>
-                <hr>
-
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!------ Include the above in your HEAD tag ---------->
+	<p></p>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+	
+ 	<!-- Start Profile -->
+	 <div class="container">
+   		 <div class="row">
+   
+        <!-- Add to cart -->
+        <div class="col-md-12 add_to_cart_block">
+		<h3><i class="fa fa-user"></i>  ชื่อ - นามสกุล : เจสัน สมิท</h3>
+   
                 <div class="w3-card-4">
                    
-                    <div class="w3-container">
-                        <br>
-                            <header class="w3-container w3-lime">
-                                <h3><i class="fa fa-line-chart"></i> ปริมาณแคลอรี่ที่เหมาะสม/วัน : 2100 กิโลแคลอรี่</h3>
-                            </header>
-                        <br>
-                            <p>เพศ : ชาย</p>
-                            <p>อายุ : 36 ปี</p>
-                            <p>น้ำหนัก : 65 กิโลกรัม</p>
-                            <p>ส่วนสูง : 183 เซนติเมตร</p>
-                    
-                        <hr>
-                            <header class="w3-container w3-khaki">
-                                <h3><i class="fa fa-plus-square"></i> โรคประจำตัวผู้ป่วย : </h3>
-                            </header>
-                        <br>
-                             <p>โรคเบาหวาน</p>
-                            <p>โรคหัวใจ</p> 
-                    
-                        <hr>
-                            <header class="w3-container w3-amber">
-                                 <h3><i class="fa fa-exclamation-triangle"></i> การแพ้อาหาร : </h3>
-                            </header>
-                         <br>
-                            <p>ถั่ว</p>
-                            <p>ปู</p>
+					<div class="card border-light mb-3">
+                	
+					<div class="card-header text-white text-uppercase"style="background-color: Maroon"><p class="h4"><i class="fa fa-line-chart"></i> ปริมาณแคลอรี่ที่เหมาะสม/วัน : 2100 กิโลแคลอรี่</p></div>
+					
+						<div class="w3-container ">
+							<br>
+							<p> เพศ : ชาย</p> 
+                        	<p> น้ำหนัก : 65 กิโลกรัม</p>
+                        	<p> ส่วนสูง : 183 เซนติเมตร</p>
+						</div>
 
+					<div class="card-header bg-dark text-white text-uppercase"><p class="h4"><i class="fa fa-line-chart"></i> โรคประจำตัวผู้ป่วย :</p></div>
+   
+						<div class="w3-container">
+							<br>
+                            <p> โรคเบาหวาน</p>
+                            <p> โรคหัวใจ</p> 
+						</div>
+
+					<div class="card-header bg-dark text-white text-uppercase"><p class="h4"><i class="fa fa-line-chart"></i> การแพ้อาหาร :</p></div>    
+						
+						<div class="w3-container">
+						 	<br>
+                            <p> ถั่ว</p>
+                            <p> ปู</p>
                         </div>
    
-                        <button class="w3-button w3-block w3-dark-grey" href="#"><i class="fa fa-edit"></i> แก้ไขข้อมูลส่วนตัว</button>
+                        <button class="btn btn-success btn-lg btn-block text-uppercase" href="#"><i class="fa fa-edit"></i> แก้ไขข้อมูลส่วนตัว</button>
                         
                 </div>
-                <br>
-
+				</div>
+        		</div>
+				
             </div>
         </div>
-	
 
  <!-- End Profile -->
-	
+    
 		<!-- Start Contact info -->
 		<div class="contact-imfo-box">
 		<div class="container">
