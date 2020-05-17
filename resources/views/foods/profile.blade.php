@@ -181,7 +181,7 @@
                         </div>
    
                         <button class="btn btn-success btn-lg btn-block text-uppercase" 
-						href="#"><i class="fa fa-edit"></i> แก้ไขข้อมูลส่วนตัว</button>
+						href="{{action('WelcomeController@editprofile')}}"><i class="fa fa-edit"></i> แก้ไขข้อมูลส่วนตัว</button>
                         
                 </div>
 				</div>
@@ -192,85 +192,8 @@
 
  <!-- End Profile -->
     
-		<!-- Start Contact info -->
-		<div class="contact-imfo-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<i class="fa fa-volume-control-phone"></i>
-					<div class="overflow-hidden">
-						<h4>Phone</h4>
-						<p class="lead">
-							+66 2961-1372
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<i class="fa fa-envelope"></i>
-					<div class="overflow-hidden">
-						<h4>Email</h4>
-						<p class="lead">
-							ncdsfood.support@gmail.com
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<i class="fa fa-map-marker"></i>
-					<div class="overflow-hidden">
-						<h4>Location</h4>
-						<p class="lead">
-							99/33 ม.6 ท่าอิฐ ปากเกร็ด นนทบุรี 
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Contact info -->
-	
-	<!-- Start Footer -->
-	<footer class="footer-area bg-f">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<h3>About Us</h3>
-					<p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui, at ornare turpis ultrices sit amet. Nulla cursus lorem ut nisi porta, ac eleifend arcu ultrices.</p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Opening hours</h3>
-					<p><span class="text-color">Monday: </span>Closed</p>
-					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>ติดต่อเราได้ที่</h3>
-					<p class="lead">99/33 ม.6 ซอยท่าอิฐ 25 </a> <br>
-					ถนนรัตนาธิเบศร์ ตำบลท่าอิฐ  <br>
-					อำเภอปากเกร็ด นนทบุรี 11120 
-					<p class="lead"><a href="#">+66 2961-1372</a></p>
-					<p><a href="#"> ncdsfood.support@gmail.com</a></p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>ติดตามเราได้ที่</h3>
-					<div class="subscribe_form">
-						<form class="subscribe_form">
-							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
-							<button type="submit" class="submit">SUBSCRIBE</button>
-							<div class="clearfix"></div>
-						</form>
-					</div>
-					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		
+		<!-- Start Footer -->
+	<footer class="footer-area bg-f">	
 		<div class="copyright"> 
 			<div class="container"> 
 				<div class="row"> 
@@ -282,7 +205,6 @@
 					</div> 
 				</div> 
 			</div>
-		
 	</footer>
 	<!-- End Footer -->
 	

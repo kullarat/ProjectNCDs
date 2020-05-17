@@ -37,6 +37,8 @@ Route::get('food', 'WelcomeController@food');
 
 Route::get('editprofile', 'WelcomeController@editprofile');
 
+Route::get('calorie', 'WelcomeController@calorie');
+
 Auth::routes();
 
 Route::get('/welcome', 'WelcomeController@index')->name('welcome');

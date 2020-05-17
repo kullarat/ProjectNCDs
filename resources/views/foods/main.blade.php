@@ -101,6 +101,16 @@
 			</div>
 		</nav>
 	</header>
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="/__/firebase/7.14.4/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="/__/firebase/7.14.4/firebase-analytics.js"></script>
+
+	<!-- Initialize Firebase -->
+	<script src="/__/firebase/init.js"></script>
 	
 	<!-- Start slides -->
 	<div id="slides" class="cover-slides">
@@ -146,28 +156,13 @@
 	</div>
 	<!-- End slides -->
 		
-	<!-- Start QT -->
-	<div class="qt-box qt-background">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 ml-auto mr-auto text-left">
-					<p class="lead ">
-						" If you're not the one cooking, stay out of the way and compliment the chef. "
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End QT -->
-	
 	<!-- Start Menu -->
 	<div class="menu-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Special Menu</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<h2>เมนูอาหารแนะนำ</h2>
 					</div>
 				</div>
 			</div>
@@ -324,72 +319,9 @@
 		</div>
 	</div>
 	<!-- End Menu -->
-	
-	<!-- Start Contact info -->
-	<div class="contact-imfo-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<i class="fa fa-volume-control-phone"></i>
-					<div class="overflow-hidden">
-						<h4>Phone</h4>
-						<p class="lead">
-							+66 2961-1372
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<i class="fa fa-envelope"></i>
-					<div class="overflow-hidden">
-						<h4>Email</h4>
-						<p class="lead">
-							ncdsfood.support@gmail.com
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<i class="fa fa-map-marker"></i>
-					<div class="overflow-hidden">
-						<h4>Location</h4>
-						<p class="lead">
-							99/33 ม.6 ท่าอิฐ ปากเกร็ด นนทบุรี 
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Contact info -->
-	
-	<!-- Start Footer -->
-	<footer class="footer-area bg-f">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6">
-					<h3>About Us</h3>
-					<p>NCDs Food คือ เว็บแอปพลิเคชันแนะนำอาหารสำหรับผู้ป่วยในกลุ่มโรค NCDs ที่ให้ผู้ป่วยในกลุ่มโรค NCDs หรือคนในครอบครัวผู้ป่วย คนดูแลผู้ป่วย สามารถใช้งานเว็บไซต์เพื่อ</p>
-				</div>
-
-				<div class="col-lg-6 col-md-6">
-					<h3>ติดตามเราได้ที่</h3>
-					<div class="subscribe_form">
-						<form class="subscribe_form">
-							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
-							<button type="submit" class="submit">SUBSCRIBE</button>
-							<div class="clearfix"></div>
-						</form>
-					</div>
-					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
 		
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">	
 		<div class="copyright"> 
 			<div class="container"> 
 				<div class="row"> 
@@ -401,7 +333,6 @@
 					</div> 
 				</div> 
 			</div>
-		
 	</footer>
 	<!-- End Footer -->
 	

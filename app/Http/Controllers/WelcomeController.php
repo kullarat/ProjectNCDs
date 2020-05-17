@@ -55,5 +55,10 @@ class WelcomeController extends Controller
     {
         return view('foods.editprofile');
     }
+
+    public function calorie()
+    {
+        return view('foods.calorie');
+    }
     
 }
